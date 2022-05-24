@@ -1,0 +1,16 @@
+FIRST
+
+--- Figure out a simple way of getting all the input data (festival
+characteristics and volunteers preferences) in a .txt file.
+
+--- Design the heuristic local search scheduling algorithm.
+
+--- Get a simple readible output data in a .txt file.
+
+
+FUTURE  
+
+--- Create an user interface for the festival managers to create the input data
+file.
+
+--- Design an user readible output data file.

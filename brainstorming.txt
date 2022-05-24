@@ -1,0 +1,34 @@
+---- This application must be usable for any music festival willing to automate
+the task of create the timetables for their volunteers. Therefore, it has to be
+:
+    - Customizable.
+    - User friendly.
+    - The scheduling algorithm has to be "relatibly" fast.
+
+---- The input for the application would be:
+
+    - The festival characteristics, i.e. :
+            - Number of days of the festival.
+            - Time slots of each day, tasks to be done in each time slot and how
+            many volunteers in each time slot and task (minimum and desired
+            number of volunteers).
+            - The number of recruted of volunteers.
+            - Some decisions about what is a feasible timetable must be let to
+            decision of the festival managers, i.e. : volunteers can be assigned to
+            time slots of unvailable days ? or to undersired tasks and time
+            slots ?
+
+    - The preferences of each volunteer, i.e. :
+            - Which days and time slots they are available.
+            - Which tasks they would prefer to be assigned to. 
+            - Which task they would prefer NOT to be assigned to.
+
+---- The output must be a feasible timetable, where all the tasks-time slots get
+assigned at least their minimum number of volunteers, and the preferences of the
+volunteers are maximize.
+
+---- A volunteer satisfaction-based algorithm which will try to maximize the
+satisfaction of the whole volunteer crew without creating large differences
+between the satisfaction level of the different volunteers.
+
+---- The idea is to use a local-search metaheuristic algorithm.
