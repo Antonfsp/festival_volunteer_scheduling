@@ -31,4 +31,8 @@ volunteers are maximize.
 satisfaction of the whole volunteer crew without creating large differences
 between the satisfaction level of the different volunteers.
 
+---- Also we should consider the amount of hours each volunteer works perday.
+This might be choosen by each volunteer, or the algorithm could try to make it
+even or all the volunteers.
+
 ---- The idea is to use a local-search metaheuristic algorithm.
