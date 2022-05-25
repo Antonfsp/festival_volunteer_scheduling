@@ -1,10 +1,9 @@
-D 
-1 #Number of days 
+D #Number of days 
+2
 
-DAY 1
-2022 05 26 # Date of the day 1 of the festival
-
-09 00 12 00 bar 2 3 # Time slot, job type, minimum number of volunteers, preferred number of volunteers
+DAY 1 # Date of the day 1 of the festival
+2022 5 26 
+09 00 12 00 bar 2 3  # Time slot, job type, minimum number of volunteers, preferred number of volunteers
 09 00 12 00 parking 1 2
 09 00 12 00 tickets 2 2
 09 00 12 00 wc 1 2
@@ -16,10 +15,8 @@ DAY 1
 15 00 18 00 parking 1 2
 15 00 18 00 tickets 2 2
 15 00 18 00 wc 1 2
-
-DAY 2
-2022 05 27 # Date of the day 2 of the festival
-
+DAY 2 # Date of the day 2 of the festival
+2022 5 27 
 09 00 12 00 bar 2 3 
 09 00 12 00 parking 1 2
 09 00 12 00 tickets 2 2

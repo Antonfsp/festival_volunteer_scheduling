@@ -1,6 +1,6 @@
 
 from functools import cached_property
-from datetime import datetime
+from datetime import date, datetime
 
 # Class for the festival
 
@@ -21,8 +21,8 @@ class Festival():
 
 class Day():
 
-    def _init_(self,name,jobs):
-        self.name = name
+    def __init__(self,date,jobs):
+        self.date = date
         self.jobs = jobs
 
 
@@ -30,7 +30,7 @@ class Day():
 
 class Job():
 
-    def _init_(self,type,time_slot,min_nb_volunteers,pref_nb_volunteers):
+    def __init__(self,time_slot,type, min_nb_volunteers,pref_nb_volunteers):
         self.type = type
         self.time_slot = time_slot
         self.min_nb_volunteers = min_nb_volunteers
@@ -61,9 +61,9 @@ class Job():
 
 class Volunteer():
 
-    def __init__(self,id,job_preferences):
+    def __init__(self,id,job_preferences,availability):
         self.id = id
-        self.availability = []
+        self.availability = availability
         self.job_preferences = job_preferences
         self.jobs_assigned = []
 
@@ -76,11 +76,9 @@ class Volunteer():
 
 class Time_slot():
     
-    def _init_(self,day,starting_time,ending_time):
-        self.day = day
+    def __init__(self,starting_time,ending_time):
         self.starting_time = starting_time
         self.ending_time = ending_time
-        
 
 
 
