@@ -1,0 +1,20 @@
+V 
+10 # Number of recruted volunteers
+
+ID 
+ines # Volunteer id
+
+PREFERENCES 
+bar 3 # Preferences for the different types of jobs
+tickets 2
+parking 1
+
+AVAILABILITY 
+DAY 1
+2022 05 26 
+09 00 14 00 # The first day the volunteer with ID ines is available from 09h00 to 14h00
+
+DAY 2
+2022 05 27
+09 00 12 00 # The second day is available from 09h00 to 12h00 and from 14h00 to 19h00
+14 00 19 00
